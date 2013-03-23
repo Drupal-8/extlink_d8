@@ -1,0 +1,6 @@
+extlink_settings:
+  pattern: '/admin/config/user-interface/extlink'
+  defaults:
+    _content: '\Drupal\extlink\ExtlinkController::settings'
+  requirements:
+    _permission: 'administer site configuration'
